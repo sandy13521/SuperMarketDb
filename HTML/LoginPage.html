@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        SuperMarket
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/Loginpage.css" rel="stylesheet">
+    <style>
+        body { 
+            background-image: url('../Assets/back.jpg');
+            margin: 0%;
+            padding: 0%;
+            margin-top: -20px;
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover; 
+         }
+
+        form {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background:#383838;width: 100%;height:auto;position: fixed;top:0px;display: inline;background-blend-mode: lighten;" align:"center">
+        <div>
+            <h1 style="color: white;padding: 20px;font-family: bahnschrift condensed " align ="center">Super Market</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div style="width: auto;height: auto;border-radius: 10px ; margin-left: 40%;float: left;background-color: rgb(240,240,240,0.5);margin-top: 30px" align ="center">
+        <div>
+            <img src="../Assets/img_avatar2.png" style="width: 100px;height: 100px;margin-top: 20px;border-radius: 3px">
+        </div>
+        <div>
+            <h2 style="padding: 10px;font-family:Lucida Sans Unicode;font-style:inherit; ;padding-top: 20px;color: #383838;" align = "center">Select Your Login Portal </h2>
+            <form action="../PHP/AdminLogin.php">
+                <input type="submit" name="admin" value="Admin" class="button" style="border-width:0px;font-style: bold;font-size: 20px;">
+            </form>
+            <form action="../PHP/EmployeeLogin.php">
+                <input type="submit" name="employee" value="Employee" class="button" style="border-width:0px;margin-bottom: 15px;font-style: bold;font-size: 20px;">
+            </form>
+        </div>
+    </div>
+    <div style="background:#383838;width: 100%;height:auto;bottom: 0px;position: absolute;float: left;background-blend-mode: lighten;" >
+        <div style="position: relative;float: left;padding-left: 50px;padding-top: 10px;">
+            <h3 style="color:lightblue;font-family:bahnschrift condensed ">Address : </h3>
+            <p style="color: white;">
+            #10, 3th main, 2th cross,<br> Opposite Laxmi Hospital,<br>
+            BSK 3nd Stage<br>
+            Bengaluru - 560060  <br>  
+            </p>
+        </div> 
+        <div style="float: left;padding-left: 80px;padding-top: 10px;">
+            <h3  style="color: lightblue;font-family:bahnschrift condensed ">Contact Us :</h3>
+            <p style="color: white;">nandavarmukund1999@gmail.com</p>    
+        </div>
+        
+        <div style="bottom:0px;float:right;display: inline-block;overflow-x: hidden;">
+            <h3  style="color: lightblue;font-family:bahnschrift condensed;float: left;">Developed By  :</h3>
+            <h3 style="color: white;font-family:bahnschrift condensed   ;float: left ;padding-left: 8px;padding-right: 8px">  @Sandeep N S</h3>
+        </div>
+        
+    </div>
+</body>
+</html>
