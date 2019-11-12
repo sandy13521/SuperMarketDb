@@ -1,0 +1,46 @@
+.sidenav {
+  margin-top: 115px ;
+  height: 100%;
+  width: auto;   
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-image: url('../Assets/sidenav1.jpg');
+  background-color: gray;
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  float: right; 
+}
+.sidenav a{
+    padding: 16px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black ;
+    font-style: oblique;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;   
+}
+.sidenav a:hover{
+  color: black;
+  background-color:#F8AF41;
+}
+.sidenav a.active{
+  color:white;
+  background-color: #1A73E8;
+}
+
+.button{
+  width: 200px;
+  height: 40px;
+  background-color: lightblue;
+  color: black ;
+  font-style: bold;
+  font-size: 15px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border-width: 0px;
+}

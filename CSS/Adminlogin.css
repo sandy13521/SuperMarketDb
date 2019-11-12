@@ -1,0 +1,17 @@
+.button{
+    background-color: darkslateblue;
+    height: 40px;
+    width: 150px;
+    border-radius:10px ;
+    padding:8px;
+    margin: 8px;
+    border-color: darkslateblue;
+    color: white;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: hidden;
+}

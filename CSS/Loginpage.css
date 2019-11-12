@@ -1,0 +1,36 @@
+.logo{
+    margin-top: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.button{
+    background-color: cornflowerblue;
+    height: 60px;
+    width: 150px;
+    border-radius:10px ;
+    padding:8px;
+    margin: 8px;
+    border-color: cornflowerblue;
+    color: white;
+}
+.button:hover{
+    background-color: darkslateblue;
+}
+.frm{
+    display: inline-block;
+   /* vertical-align: middle; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.backform{
+    background-image: "../Assets/images.jpg" ;
+}
+.topnav{
+    background-color: black;
+    width: 600px;;
+    height:100px;
+
+}
