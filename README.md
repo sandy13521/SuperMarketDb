@@ -22,5 +22,3 @@
 - *Visual Studio Code*
 - *Sublime Text*
 
-Yet to be Improved.
-TO BE Continued ...
